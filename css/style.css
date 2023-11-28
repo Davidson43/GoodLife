@@ -1,13 +1,97 @@
-html {
-    margin: 0;
-    padding: 0;
-}    
+   
 body {
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Poppins';
     color: #fff;
+    margin: 0 auto;
 }
 a, a:hover {
     text-decoration: none;
     transition: all ease 0.3s;
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.navigation {
+    width: 100%;
+    height: 101px;
+    padding: 0 36px;
+    background-color: #E43071;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+.nav a {
+    color: white;
+    padding: 0 36px;
+
+}
+.nav a:last-child {
+    color: white;
+    padding: 0 0 0 36px;
+
+}
+.navigation_section {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 36px;
+}
+.auth a {
+    display: flex;
+    width: 166px;
+    height: 50px;
+    border-radius: 200px;
+    color: #E43071;
+    background-color: #fff;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.hero_slider{
+    position: relative;
+}
+.hero_over {    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-theme .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #E43071;
+}
+.wave {
+    bottom: 35px;
+    position: absolute;
+    z-index: 100;
+}
+.wave  img {
+    width: 100%;
 }
