@@ -281,3 +281,44 @@ a, a:hover {
     padding: 0 0 0 36px;
     position: relative;
 }
+
+
+.app {
+    background-color: #E43071;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 480px;
+}
+.app_content_col {
+    flex: 0 0 50%;
+    display: flex;
+    height: 480px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.app .h3 {
+    color: #fff;
+}
+.app p{
+    font-size: 16px;
+    line-height: 36px;
+}
+.app span{
+}
+.app img {
+    
+}
+.app_icons {
+}
+.app_icons_item {
+}
+.app_img_col {
+    flex: 0 0 50%;
+}
+.app_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+}
