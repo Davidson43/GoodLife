@@ -95,12 +95,12 @@ a, a:hover {
 .wave  img {
     width: 100%;
 }
-.h1 {
+.hero_slider .h1 {
     font-size: 70px;
     line-height: 77px;
     padding: 0 0 30px 0;
 }
-.h1 span {
+.hero_slider .h1 span {
     color: #FFC1D8;
 }
 .button_pink {
@@ -116,23 +116,24 @@ a, a:hover {
 .button_pink:hover {
     color: white;
 }
-.newbody {
+.newbody,
+.premium {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px 0;
+    padding: 150px 0;
 }
-.newbody_left {
+.img_col {
     flex: 0 0 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.newbody_right {
+.content_col {
     flex: 0 0 50%;
     padding: 0 50px;
 }
-.newbody_right p {
+.content_col p {
     color: #424242;
     line-height: 36px;
     font-size: 16px;
@@ -156,4 +157,127 @@ a, a:hover {
 }
 .button_white:hover {
     color: #E43071;
+}
+.more {
+    position: relative;
+}
+.more_slider {
+}
+.more_over {
+    position: absolute;
+    bottom: 35%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.more_over .h3{
+    color: #fff;
+}
+.more_over p{
+    font-size: 17px;
+    line-height: 23px;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+
+.real {
+    background: #F4E3EA;
+    background: linear-gradient(0deg, #F4E3EA, #FFFFFF);
+    display: flex;
+    align-items: center;
+    padding: 150px 0 100px 0;
+}
+
+
+.real_left {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex: 0 0 50%;
+    justify-content: center;
+}
+.left_container_top {
+
+}
+.left_container_bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+.real .h3 {
+    color: #000;
+    font-size: 48px;
+}
+.real p {
+    color: #000;
+}
+.real_right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 0 0 50%;
+    padding: 0 0 0 36px;
+}
+
+
+.cart {
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    color: #424242;
+}
+
+.cart1 {
+    max-width: 50%;
+}
+.cart2 {
+    max-width: 60%;
+    margin: 0 0 36px 0;
+}
+.cart3 {
+    max-width: 50%;
+}
+.cart .h4 {
+    color: #E43071;
+    font-size: 38px;
+}
+.cart p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #424242;
+}
+.client {
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    padding: 0 25px 0 0;
+}
+.about {
+}
+.about_name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.about_status {
+    font-size: 14px;
+    color: #969BAB;
+}
+.cart_content::before {
+    content: url("../img/Real stories copy.png");
+    position: absolute;
+    left: 0px;
+}
+.cart_content {
+    padding: 0 0 0 36px;
+    position: relative;
 }
