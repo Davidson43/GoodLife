@@ -1,3 +1,9 @@
+$(document).ready(function() {
+
+    $(".hamburger").click(function(){
+        $(".navigation_section_small").fadeToggle();
+    });
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -17,3 +23,8 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+
+
+});

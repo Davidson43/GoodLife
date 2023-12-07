@@ -22,6 +22,18 @@ a, a:hover {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
+    position: relative;
+}
+.navigation_section_small {
+	list-style: none;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+	padding: 0;
+	display: none;
+	top: 100px;
+	left: 0;
+    z-index: 100;
 }
 .nav {
     list-style: none;
@@ -30,6 +42,35 @@ a, a:hover {
     justify-content: space-around;
     padding: 0;
     margin: 0;
+}
+.nav_small li{
+    padding: 15px 0;
+}
+.nav_small a{
+    color: black;
+}
+.nav_small {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.auth_small {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.auth_small a {
+    display: flex;
+    width: 166px;
+    height: 50px;
+    border-radius: 200px;
+    color: #FFFFFF;
+    background-color: #E43071;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .nav a {
     color: white;
@@ -59,6 +100,23 @@ a, a:hover {
     align-content: center;
     align-items: center;
 }
+.menu_big {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.menu_small {
+    display: none;
+}
+.nav_hamburger {
+    display: flex;
+}
+.hamburger {
+    padding: 0 0 0 25px;
+    cursor: pointer;
+}
 .hero_slider{
     position: relative;
 }
@@ -67,7 +125,7 @@ a, a:hover {
     bottom: 30%;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 10;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -308,6 +366,9 @@ a, a:hover {
 }
 .app img {
     
+}
+.app_img_phone {
+
 }
 .app_icons {
 }

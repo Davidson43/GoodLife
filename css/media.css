@@ -1,6 +1,70 @@
 
 @media (max-width: 1200px) {
-
+	.hero_slider .h1 {
+		font-size: 50px;
+	}
+	.content_col p {
+		width: 100%;
+	}
+	.cart1 {
+		max-width: 70%;
+	}
+	.cart2 {
+		max-width: 80%;
+	}
+	.cart3 {
+		max-width: 70%;
+	}
+	.app_wrap {
+		width: 75%;
+	}
+	.app .h3 {
+		font-size: 32px;
+	}
+	.app p {
+		line-height: 32px;
+	}
+	.app_img_phone {
+		width: 110%;
+	}
+	.app {
+		height: 400px;
+	}
+	.app_content_col {
+		height: 430px;
+	}
+	.social_icon_item {
+		width: 90px;
+		height: 90px;
+	}
+	.footer_col {
+		flex: 0 0 40%;
+		margin: 0 0 64px 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer p {
+		padding: 25px 0;
+		width: 60%;
+		text-align: center;
+	}
+	.footer_content {
+		flex-wrap: wrap;
+	}
+	.img_col img {
+		width: 85%;
+	}
+	.menu_small {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: nowrap;
+		width: 100%;
+	}
+	.menu_big {
+		display: none;
+	}
 }
 @media (max-width: 992px) {
 	
